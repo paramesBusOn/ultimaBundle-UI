@@ -1,0 +1,21 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:octo_image/octo_image.dart';
+import 'package:provider/provider.dart';
+import 'package:ultimate_bundle/providers/theme_provider.dart';
+import 'package:ultimate_bundle/src/lestate/src/helpers/colors.dart';
+import 'package:ultimate_bundle/src/lestate/src/helpers/constants.dart';
+import 'package:ultimate_bundle/src/lestate/src/helpers/toast.dart';
+import 'package:ultimate_bundle/src/lestate/src/models/chat_model.dart';
+import 'package:ultimate_bundle/src/lestate/src/models/message_model.dart';
+import 'package:ultimate_bundle/src/lestate/src/widgets/custom_app_bar.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+part 'screens/chat_screen.dart';
+part 'widgets/bubble_chat.dart';
+part 'widgets/build_send_text_field.dart';
